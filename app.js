@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 var searchRouter = require('./routes/search');
 var apiRouter = require('./routes/api');
 
-var app = express();
+var app = express(); 
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
